@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0312C671509D33D199137191 /* Pods_desafio_joelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E4D629897086812C9726C /* Pods_desafio_joelTests.framework */; };
+		4BC6C03C783115ACBFC6E0B7 /* Pods_desafio_joel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7C2869EF73607A5A88CAA1 /* Pods_desafio_joel.framework */; };
+		55AC9C6722EFA4DB002327E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC9C6622EFA4DB002327E7 /* AppDelegate.swift */; };
+		55AC9C6922EFA4DB002327E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC9C6822EFA4DB002327E7 /* ViewController.swift */; };
+		55AC9C6C22EFA4DB002327E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AC9C6A22EFA4DB002327E7 /* Main.storyboard */; };
+		55AC9C6F22EFA4DB002327E7 /* desafio_joel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55AC9C6D22EFA4DB002327E7 /* desafio_joel.xcdatamodeld */; };
+		55AC9C7122EFA4DB002327E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AC9C7022EFA4DB002327E7 /* Assets.xcassets */; };
+		55AC9C7422EFA4DB002327E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AC9C7222EFA4DB002327E7 /* LaunchScreen.storyboard */; };
+		55AC9C7F22EFA4DB002327E7 /* desafio_joelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC9C7E22EFA4DB002327E7 /* desafio_joelTests.swift */; };
+		55AC9C8A22EFA4DB002327E7 /* desafio_joelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC9C8922EFA4DB002327E7 /* desafio_joelUITests.swift */; };
+		5D03F39786965D5C43A203E8 /* Pods_desafio_joelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74AAB4FAFFE01E233B64ADE /* Pods_desafio_joelUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55AC9C7B22EFA4DB002327E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55AC9C5B22EFA4DB002327E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AC9C6222EFA4DB002327E7;
+			remoteInfo = "desafio-joel";
+		};
+		55AC9C8622EFA4DB002327E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55AC9C5B22EFA4DB002327E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AC9C6222EFA4DB002327E7;
+			remoteInfo = "desafio-joel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55AC9C6322EFA4DB002327E7 /* desafio-joel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-joel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AC9C6622EFA4DB002327E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55AC9C6822EFA4DB002327E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55AC9C6B22EFA4DB002327E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55AC9C6E22EFA4DB002327E7 /* desafio_joel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = desafio_joel.xcdatamodel; sourceTree = "<group>"; };
+		55AC9C7022EFA4DB002327E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55AC9C7322EFA4DB002327E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55AC9C7522EFA4DB002327E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AC9C7A22EFA4DB002327E7 /* desafio-joelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-joelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AC9C7E22EFA4DB002327E7 /* desafio_joelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_joelTests.swift; sourceTree = "<group>"; };
+		55AC9C8022EFA4DB002327E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AC9C8522EFA4DB002327E7 /* desafio-joelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-joelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AC9C8922EFA4DB002327E7 /* desafio_joelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_joelUITests.swift; sourceTree = "<group>"; };
+		55AC9C8B22EFA4DB002327E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFDAE92D76678A1634E2CEA /* Pods-desafio-joelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-joelUITests.debug.xcconfig"; path = "Target Support Files/Pods-desafio-joelUITests/Pods-desafio-joelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7C2869EF73607A5A88CAA1 /* Pods_desafio_joel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_joel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700E4D629897086812C9726C /* Pods_desafio_joelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_joelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC02410763771FAAF6DE850 /* Pods-desafio-joel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-joel.release.xcconfig"; path = "Target Support Files/Pods-desafio-joel/Pods-desafio-joel.release.xcconfig"; sourceTree = "<group>"; };
+		B5E9C3C9623876595DBF48CE /* Pods-desafio-joelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-joelUITests.release.xcconfig"; path = "Target Support Files/Pods-desafio-joelUITests/Pods-desafio-joelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6C61A35EC18EB754C2D2452 /* Pods-desafio-joelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-joelTests.debug.xcconfig"; path = "Target Support Files/Pods-desafio-joelTests/Pods-desafio-joelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4BE37BEDC944CBDE99DD48C /* Pods-desafio-joel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-joel.debug.xcconfig"; path = "Target Support Files/Pods-desafio-joel/Pods-desafio-joel.debug.xcconfig"; sourceTree = "<group>"; };
+		E05A8C5429F3A8243F559991 /* Pods-desafio-joelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-joelTests.release.xcconfig"; path = "Target Support Files/Pods-desafio-joelTests/Pods-desafio-joelTests.release.xcconfig"; sourceTree = "<group>"; };
+		F74AAB4FAFFE01E233B64ADE /* Pods_desafio_joelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_joelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55AC9C6022EFA4DB002327E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC6C03C783115ACBFC6E0B7 /* Pods_desafio_joel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC9C7722EFA4DB002327E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0312C671509D33D199137191 /* Pods_desafio_joelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC9C8222EFA4DB002327E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D03F39786965D5C43A203E8 /* Pods_desafio_joelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0E9E555967FA84F0109F71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE37BEDC944CBDE99DD48C /* Pods-desafio-joel.debug.xcconfig */,
+				7EC02410763771FAAF6DE850 /* Pods-desafio-joel.release.xcconfig */,
+				B6C61A35EC18EB754C2D2452 /* Pods-desafio-joelTests.debug.xcconfig */,
+				E05A8C5429F3A8243F559991 /* Pods-desafio-joelTests.release.xcconfig */,
+				5AFDAE92D76678A1634E2CEA /* Pods-desafio-joelUITests.debug.xcconfig */,
+				B5E9C3C9623876595DBF48CE /* Pods-desafio-joelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D500226C78C5A7B772D6339 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7C2869EF73607A5A88CAA1 /* Pods_desafio_joel.framework */,
+				700E4D629897086812C9726C /* Pods_desafio_joelTests.framework */,
+				F74AAB4FAFFE01E233B64ADE /* Pods_desafio_joelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55AC9C5A22EFA4DB002327E7 = {
+			isa = PBXGroup;
+			children = (
+				55AC9C6522EFA4DB002327E7 /* desafio-joel */,
+				55AC9C7D22EFA4DB002327E7 /* desafio-joelTests */,
+				55AC9C8822EFA4DB002327E7 /* desafio-joelUITests */,
+				55AC9C6422EFA4DB002327E7 /* Products */,
+				3A0E9E555967FA84F0109F71 /* Pods */,
+				4D500226C78C5A7B772D6339 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55AC9C6422EFA4DB002327E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AC9C6322EFA4DB002327E7 /* desafio-joel.app */,
+				55AC9C7A22EFA4DB002327E7 /* desafio-joelTests.xctest */,
+				55AC9C8522EFA4DB002327E7 /* desafio-joelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AC9C6522EFA4DB002327E7 /* desafio-joel */ = {
+			isa = PBXGroup;
+			children = (
+				55AC9C6622EFA4DB002327E7 /* AppDelegate.swift */,
+				55AC9C6822EFA4DB002327E7 /* ViewController.swift */,
+				55AC9C6A22EFA4DB002327E7 /* Main.storyboard */,
+				55AC9C7022EFA4DB002327E7 /* Assets.xcassets */,
+				55AC9C7222EFA4DB002327E7 /* LaunchScreen.storyboard */,
+				55AC9C7522EFA4DB002327E7 /* Info.plist */,
+				55AC9C6D22EFA4DB002327E7 /* desafio_joel.xcdatamodeld */,
+			);
+			path = "desafio-joel";
+			sourceTree = "<group>";
+		};
+		55AC9C7D22EFA4DB002327E7 /* desafio-joelTests */ = {
+			isa = PBXGroup;
+			children = (
+				55AC9C7E22EFA4DB002327E7 /* desafio_joelTests.swift */,
+				55AC9C8022EFA4DB002327E7 /* Info.plist */,
+			);
+			path = "desafio-joelTests";
+			sourceTree = "<group>";
+		};
+		55AC9C8822EFA4DB002327E7 /* desafio-joelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55AC9C8922EFA4DB002327E7 /* desafio_joelUITests.swift */,
+				55AC9C8B22EFA4DB002327E7 /* Info.plist */,
+			);
+			path = "desafio-joelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AC9C6222EFA4DB002327E7 /* desafio-joel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AC9C8E22EFA4DB002327E7 /* Build configuration list for PBXNativeTarget "desafio-joel" */;
+			buildPhases = (
+				69C244312736809645EA5481 /* [CP] Check Pods Manifest.lock */,
+				55AC9C5F22EFA4DB002327E7 /* Sources */,
+				55AC9C6022EFA4DB002327E7 /* Frameworks */,
+				55AC9C6122EFA4DB002327E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "desafio-joel";
+			productName = "desafio-joel";
+			productReference = 55AC9C6322EFA4DB002327E7 /* desafio-joel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55AC9C7922EFA4DB002327E7 /* desafio-joelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AC9C9122EFA4DB002327E7 /* Build configuration list for PBXNativeTarget "desafio-joelTests" */;
+			buildPhases = (
+				8A83E84E4799EEB04C98E78B /* [CP] Check Pods Manifest.lock */,
+				55AC9C7622EFA4DB002327E7 /* Sources */,
+				55AC9C7722EFA4DB002327E7 /* Frameworks */,
+				55AC9C7822EFA4DB002327E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55AC9C7C22EFA4DB002327E7 /* PBXTargetDependency */,
+			);
+			name = "desafio-joelTests";
+			productName = "desafio-joelTests";
+			productReference = 55AC9C7A22EFA4DB002327E7 /* desafio-joelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55AC9C8422EFA4DB002327E7 /* desafio-joelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AC9C9422EFA4DB002327E7 /* Build configuration list for PBXNativeTarget "desafio-joelUITests" */;
+			buildPhases = (
+				2C996704C292B78CB0946C92 /* [CP] Check Pods Manifest.lock */,
+				55AC9C8122EFA4DB002327E7 /* Sources */,
+				55AC9C8222EFA4DB002327E7 /* Frameworks */,
+				55AC9C8322EFA4DB002327E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55AC9C8722EFA4DB002327E7 /* PBXTargetDependency */,
+			);
+			name = "desafio-joelUITests";
+			productName = "desafio-joelUITests";
+			productReference = 55AC9C8522EFA4DB002327E7 /* desafio-joelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55AC9C5B22EFA4DB002327E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Joel de Almeida Souza";
+				TargetAttributes = {
+					55AC9C6222EFA4DB002327E7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					55AC9C7922EFA4DB002327E7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 55AC9C6222EFA4DB002327E7;
+					};
+					55AC9C8422EFA4DB002327E7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 55AC9C6222EFA4DB002327E7;
+					};
+				};
+			};
+			buildConfigurationList = 55AC9C5E22EFA4DB002327E7 /* Build configuration list for PBXProject "desafio-joel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55AC9C5A22EFA4DB002327E7;
+			productRefGroup = 55AC9C6422EFA4DB002327E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AC9C6222EFA4DB002327E7 /* desafio-joel */,
+				55AC9C7922EFA4DB002327E7 /* desafio-joelTests */,
+				55AC9C8422EFA4DB002327E7 /* desafio-joelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55AC9C6122EFA4DB002327E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AC9C7422EFA4DB002327E7 /* LaunchScreen.storyboard in Resources */,
+				55AC9C7122EFA4DB002327E7 /* Assets.xcassets in Resources */,
+				55AC9C6C22EFA4DB002327E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC9C7822EFA4DB002327E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC9C8322EFA4DB002327E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C996704C292B78CB0946C92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafio-joelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C244312736809645EA5481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafio-joel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A83E84E4799EEB04C98E78B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafio-joelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55AC9C5F22EFA4DB002327E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AC9C6F22EFA4DB002327E7 /* desafio_joel.xcdatamodeld in Sources */,
+				55AC9C6922EFA4DB002327E7 /* ViewController.swift in Sources */,
+				55AC9C6722EFA4DB002327E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC9C7622EFA4DB002327E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AC9C7F22EFA4DB002327E7 /* desafio_joelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AC9C8122EFA4DB002327E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AC9C8A22EFA4DB002327E7 /* desafio_joelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55AC9C7C22EFA4DB002327E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55AC9C6222EFA4DB002327E7 /* desafio-joel */;
+			targetProxy = 55AC9C7B22EFA4DB002327E7 /* PBXContainerItemProxy */;
+		};
+		55AC9C8722EFA4DB002327E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55AC9C6222EFA4DB002327E7 /* desafio-joel */;
+			targetProxy = 55AC9C8622EFA4DB002327E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55AC9C6A22EFA4DB002327E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55AC9C6B22EFA4DB002327E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55AC9C7222EFA4DB002327E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55AC9C7322EFA4DB002327E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55AC9C8C22EFA4DB002327E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55AC9C8D22EFA4DB002327E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55AC9C8F22EFA4DB002327E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BE37BEDC944CBDE99DD48C /* Pods-desafio-joel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-joel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.desafio-joel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55AC9C9022EFA4DB002327E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC02410763771FAAF6DE850 /* Pods-desafio-joel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-joel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.desafio-joel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55AC9C9222EFA4DB002327E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C61A35EC18EB754C2D2452 /* Pods-desafio-joelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-joelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.desafio-joelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-joel.app/desafio-joel";
+			};
+			name = Debug;
+		};
+		55AC9C9322EFA4DB002327E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05A8C5429F3A8243F559991 /* Pods-desafio-joelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-joelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.desafio-joelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/desafio-joel.app/desafio-joel";
+			};
+			name = Release;
+		};
+		55AC9C9522EFA4DB002327E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFDAE92D76678A1634E2CEA /* Pods-desafio-joelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-joelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.desafio-joelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "desafio-joel";
+			};
+			name = Debug;
+		};
+		55AC9C9622EFA4DB002327E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5E9C3C9623876595DBF48CE /* Pods-desafio-joelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "desafio-joelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.desafio-joelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "desafio-joel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55AC9C5E22EFA4DB002327E7 /* Build configuration list for PBXProject "desafio-joel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AC9C8C22EFA4DB002327E7 /* Debug */,
+				55AC9C8D22EFA4DB002327E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AC9C8E22EFA4DB002327E7 /* Build configuration list for PBXNativeTarget "desafio-joel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AC9C8F22EFA4DB002327E7 /* Debug */,
+				55AC9C9022EFA4DB002327E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AC9C9122EFA4DB002327E7 /* Build configuration list for PBXNativeTarget "desafio-joelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AC9C9222EFA4DB002327E7 /* Debug */,
+				55AC9C9322EFA4DB002327E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AC9C9422EFA4DB002327E7 /* Build configuration list for PBXNativeTarget "desafio-joelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AC9C9522EFA4DB002327E7 /* Debug */,
+				55AC9C9622EFA4DB002327E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55AC9C6D22EFA4DB002327E7 /* desafio_joel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55AC9C6E22EFA4DB002327E7 /* desafio_joel.xcdatamodel */,
+			);
+			currentVersion = 55AC9C6E22EFA4DB002327E7 /* desafio_joel.xcdatamodel */;
+			path = desafio_joel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55AC9C5B22EFA4DB002327E7 /* Project object */;
+}

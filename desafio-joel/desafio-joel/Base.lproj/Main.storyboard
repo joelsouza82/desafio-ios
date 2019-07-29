@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LF7-8k-Pdr">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="IXC-Ak-Owc">
+            <objects>
+                <navigationController id="LF7-8k-Pdr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k4Q-X6-T52">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.94097065930000001" green="0.8152334094" blue="0.43127804990000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="b25-0u-oWW" kind="relationship" relationship="rootViewController" id="DoY-a5-FGA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4z-yq-ujn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-585" y="-72"/>
+        </scene>
+        <!--Movies-->
+        <scene sceneID="iYe-k4-ljD">
+            <objects>
+                <viewController id="b25-0u-oWW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GGN-QT-Qbe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="7TD-9u-XSM">
+                                <rect key="frame" x="0.0" y="64" width="320" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64U-x6-N16">
+                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                                <color key="backgroundColor" red="0.94097065930000001" green="0.8152334094" blue="0.43127804990000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <items>
+                                    <tabBarItem image="list_icon" id="CCI-x9-ZVP"/>
+                                    <tabBarItem image="favorite_empty_icon" id="y7K-fi-oWz"/>
+                                </items>
+                            </tabBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="64U-x6-N16" firstAttribute="leading" secondItem="R8g-og-pSO" secondAttribute="leading" id="0pQ-Ky-PVm"/>
+                            <constraint firstItem="R8g-og-pSO" firstAttribute="trailing" secondItem="7TD-9u-XSM" secondAttribute="trailing" id="7Wx-4M-Oji"/>
+                            <constraint firstItem="R8g-og-pSO" firstAttribute="bottom" secondItem="64U-x6-N16" secondAttribute="bottom" id="L4q-mt-e9X"/>
+                            <constraint firstItem="R8g-og-pSO" firstAttribute="trailing" secondItem="64U-x6-N16" secondAttribute="trailing" id="YXb-Hc-qDY"/>
+                            <constraint firstItem="7TD-9u-XSM" firstAttribute="top" secondItem="R8g-og-pSO" secondAttribute="top" id="o0p-bm-xaS"/>
+                            <constraint firstItem="7TD-9u-XSM" firstAttribute="leading" secondItem="R8g-og-pSO" secondAttribute="leading" id="rhW-C3-jEb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="R8g-og-pSO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Movies" id="1Nl-Cx-BFB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e23-jb-2cH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243.75" y="-69.718309859154928"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="favorite_empty_icon" width="22" height="21"/>
+        <image name="list_icon" width="18" height="10"/>
+    </resources>
+</document>
